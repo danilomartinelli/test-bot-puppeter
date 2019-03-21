@@ -1,0 +1,21 @@
+{
+	"name": "coelba-bot-sap",
+	"version": "1.0.0",
+	"description": "Bot para captura de dados no sistema SAP",
+	"main": "bot/app.ts",
+	"author": "Danilo Martinelli; Staphanie Rocha",
+	"license": "MIT",
+	"dependencies": {
+		"download-pdf": "^0.1.6",
+		"exceljs": "^1.7.0",
+		"pdf-merge": "^1.2.0",
+		"puppeteer": "^1.13.0"
+	},
+	"devDependencies": {
+		"@types/exceljs": "^0.5.3",
+		"@types/node": "^11.11.3",
+		"@types/puppeteer": "^1.12.3",
+		"ts-node": "^8.0.3",
+		"typescript": "^3.3.3333"
+	}
+}
